@@ -13,17 +13,32 @@
   <p align="right"><h1><b>The Morrison Preparatory School</h1></p><p><h2>Investing in Barrier Free Education</b></h2></p>
   </div>
 </div>
+
 <br>
+<p align="center">The Morrison Preparatory School was founded in 2011 as an inclusive education centre, providing learning opportunities <br>for children with a wide range of physical and mental abilities in the rural village of Kindu, Kenya.  <br>Due to the remote location of the village, access to schooling had been limited for many children – particularly those with mobility challenges. <br>The school started as two small rooms and 40 students, and has since grown to seven classrooms and over 100 students! <br>The school is locally operated, and funded in large part through private <a href="\donate.html">donations</a>.</p>
 <hr>
+<div id="map" style="width:400px;height:400px;"></div>
+
 <br>
-<p align="center">The Morrison Preparatory School was founded in 2011 as an inclusive education centre, <br>providing learning opportunities for children with a wide range of physical and mental abilities <br>in the rural village of Kindu, Kenya.  <br>Due to the remote location of the village, access to schooling had been limited for many children – particularly those with mobility challenges. <br>The school started as two small rooms and 40 students, and has since grown to seven classrooms and over 100 students! <br>The school is locally operated, and funded in large part through private <a href="\donate.html">donations</a>.</p>
-<br>
-<hr>
-<p>Morrison Preparatory School<br>
+<p align="center">Morrison Preparatory School<br>
 Locally operated in Kindu, Kenya<br>
 Fundraising and oversight of project planning in Toronto, Canada<br>
 ​<a href="mailto:morrisonprepschool@gmail.com">morrisonprepschool@gmail.com</a>
 </p>
+
+<script>
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
 
 </body>
 </html>
